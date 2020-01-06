@@ -19,6 +19,12 @@ Using command line and vs code, I started a jupyter notebook that takes in a csv
 Jupyter notebooks are amazing for data visualization because they take in regular python functions and can return actual models of data in various forms(my experience is limited to some graphs)
 I imported pandas, numpy, tensorflow, and json to this particular notebook.
 
+
+## Architecture
+<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. This is also an area which you can include any visuals; flow charts, example usage gifs, screen captures, etc.-->
+For each rating number, I attached a sentiment classifier. 4 and 5 are given a 2, 3 is given a 1, and 2 or 1 are given a 0.
+
+
 ## API
 <!-- Provide detailed instructions for your applications usage. This should include any methods or endpoints available to the user/client/developer. Each section should be formatted to provide clear syntax for usage, example calls including input data requirements and options, and example responses or return values. -->
 sentiment - takes rating of 1 through 5 and assigns a sentiment to each number
@@ -31,5 +37,8 @@ hotels_reviews - returns the text reviews with number review, and sentiment numb
 <!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
 01-01-2001 4:59pm - Added functionality to add and delete some things.
 -->
+12/30/2019 11:30pm - pre-processed data for sentiment classification
 01/01/2020 - started notebook
 01/05/2020 6:03 pm - added to readme and added comments to notebook
+
+
